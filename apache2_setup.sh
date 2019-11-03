@@ -1,3 +1,6 @@
+#!/bin/bash
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+ln -s "${parent_path}/www" /var/www/speedcubers_redirect
 echo "
 <VirtualHost *:80>
         ServerName speedcubers.de
