@@ -13,7 +13,7 @@ $arr = array_map('str_getcsv', file($name.'.csv'));
 $old = array_column($arr, 0);
 $new = array_column($arr, 1);
 $id = $_GET[$idname];
-$newurl = 'https://speedcube.de/forum/'.$name.'.php?';
+$newurl = 'https://forum.speedcube.de/'.$name.'.php?';
 $index = array_search($id, $old);
 foreach ($_GET as $var => $val)
 {

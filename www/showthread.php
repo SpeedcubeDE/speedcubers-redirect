@@ -19,7 +19,7 @@ $tindex = array_search($tid, $told);
 //$pnew = array_column($parr, 1);
 //$pid = $_GET['pid'];
 //$pindex = array_search($pid, $pold);
-$newurl = 'https://speedcube.de/forum/showthread.php?';
+$newurl = 'https://forum.speedcube.de/showthread.php?';
 foreach ($_GET as $var => $val)
 {
 	$newurl .= $var.'=';
